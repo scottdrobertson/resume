@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body{
+    height:297mm;
+    width:210mm;
+    padding: 0;
+    margin: 0;
+}
+
+body {  
+
+    .white-text {
+        color: white;
+    }
+
+    .wide-wrapper {
+        display: flex;
+        text-transform: uppercase;
+        font-family: 'Rockwell';
+
+        .name {     
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            font-size: 38px;
+            padding-left: .5em;
+            padding-top: 1.25em;
+            background-color: rgb(148, 148, 148);
+        }
+        
+        .titles {
+            width: 50%;
+            background-color: rgb(99, 192, 187);
+            ul {
+                list-style-type: none;
+                padding: .75em 0 .75em 0.5em;
+                margin: 0;
+                font-size: 22px;
+                
+                li {
+                    padding: .5em 0.4em;
+                }
+            }
+        }
+
+        .blue-heading {
+            width: 50%;
+            background-color: rgb(99, 192, 187);
+            font-size: 22px;
+            padding: .75em;
+        }
+
+        .grey-heading {
+            width: 50%;
+            background-color: rgb(148, 148, 148);
+            font-size: 22px;
+            padding: .75em;
+        }
+
+        .profile-container {
+            width: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.45;
+            color: rgb(31, 39, 43);
+            text-transform: none;
+            padding: 2.5em 1.25em;
+            background-color: rgb(241, 247, 246);
+        }
+
+        .contact-container {
+            display: flex;
+            flex-direction: column;
+            padding-top: 1.75em;
+            justify-content: space-evenly;
+            text-transform: none;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 50%;
+            background-color: rgb(231, 231, 231);
+            color: rgb(0, 108, 116);
+            font-size: 18px;
+
+            img {
+                width: 1.5em;
+            }
+
+            .item-container {
+                padding-left: 1em;
+                display: flex;
+                margin-bottom: 1.2em;
+                align-items: center;
+                
+                
+                span {
+                    padding-left: .5em;
+                }
+            }
+        }
+        
+    }
+
+    .bottom-container {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+        .work-container {           
+            width: 50%;
+            padding: 1.75em 1em;
+            background-color: rgb(241, 247, 246);
+        }
+
+        .work-item {
+           p {
+               margin: 0;
+               padding: .05em 0;
+           } 
+
+           p:first-child{
+               padding: 0em 0em;
+           }
+
+           .title {
+                font-size: 22px;
+                font-weight: bolder;
+                color: rgb(78, 78, 78);
+           }
+
+           .company {
+            font-size: 18px;
+            font-weight: bold;
+            font-style: italic;
+            color: rgb(78, 78, 78);
+           }
+
+           .year {
+               font-size: 17px;
+               color: rgb(12, 145, 155);
+           }
+
+           .description {
+               .list-heading {
+                   padding: 0.5em 0 0 0;
+                   color: rgb(31, 39, 43);
+               }
+
+               .work-list {
+                    padding-left: 1em;
+                    color: rgb(31, 39, 43);
+                    margin: 0;
+                    padding: 1em 1em;
+                    font-size: 14px;
+
+                    li {
+                        padding: 0.1em;
+                    }
+
+               }
+           }
+
+        }
+
+        .skill-education-container {
+            width: 50%;
+            
+
+            .skills-list{
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(231, 231, 231);
+                color: rgb(0, 108, 116);
+                padding-top: 0.5em;
+            }
+
+            ul {
+                margin: 0;
+                padding: 1em 1.75em;
+
+                li {
+                    padding: 0.25em;
+                }
+            }
+
+            .education-heading {
+                text-transform: uppercase;
+                font-family: 'Rockwell';
+                background-color: rgb(148, 148, 148);
+                color: white;
+                font-size: 22px;
+                padding: .75em;
+
+            }
+
+            .education-body {
+                height: 429px;
+                background-color: rgb(231, 231, 231);
+                
+                
+                .edu-container {
+                    padding: 1em 1em 0 1em;
+                    
+
+                    .edu-name{
+                        font-size: 19px;
+                        font-weight: bold;
+                        color: rgb(78, 78, 78);
+                        padding-bottom: 0.2em;
+                    }
+                    
+                    .edu-year{
+                        font-size: 15px;
+                        color: rgb(0, 108, 116);
+                        padding-bottom: 0.1em;
+
+                    }
+
+                    .edu-desc{
+                        font-size: 13px;
+                        color: rgb(19, 20, 20)
+                    }
+                }
+                
+            }
+        }
+    }
+}

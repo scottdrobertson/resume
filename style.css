@@ -1,0 +1,237 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 297mm;
+  width: 210mm;
+  padding: 0;
+  margin: 0;
+}
+
+body .white-text {
+  color: white;
+}
+
+body .wide-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-family: 'Rockwell';
+}
+
+body .wide-wrapper .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  font-size: 38px;
+  padding-left: .5em;
+  padding-top: 1.25em;
+  background-color: #949494;
+}
+
+body .wide-wrapper .titles {
+  width: 50%;
+  background-color: #63c0bb;
+}
+
+body .wide-wrapper .titles ul {
+  list-style-type: none;
+  padding: .75em 0 .75em 0.5em;
+  margin: 0;
+  font-size: 22px;
+}
+
+body .wide-wrapper .titles ul li {
+  padding: .5em 0.4em;
+}
+
+body .wide-wrapper .blue-heading {
+  width: 50%;
+  background-color: #63c0bb;
+  font-size: 22px;
+  padding: .75em;
+}
+
+body .wide-wrapper .grey-heading {
+  width: 50%;
+  background-color: #949494;
+  font-size: 22px;
+  padding: .75em;
+}
+
+body .wide-wrapper .profile-container {
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #1f272b;
+  text-transform: none;
+  padding: 2.5em 1.25em;
+  background-color: #f1f7f6;
+}
+
+body .wide-wrapper .contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1.75em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  background-color: #e7e7e7;
+  color: #006c74;
+  font-size: 18px;
+}
+
+body .wide-wrapper .contact-container img {
+  width: 1.5em;
+}
+
+body .wide-wrapper .contact-container .item-container {
+  padding-left: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wide-wrapper .contact-container .item-container span {
+  padding-left: .5em;
+}
+
+body .bottom-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .bottom-container .work-container {
+  width: 50%;
+  padding: 1.75em 1em;
+  background-color: #f1f7f6;
+}
+
+body .bottom-container .work-item p {
+  margin: 0;
+  padding: .05em 0;
+}
+
+body .bottom-container .work-item p:first-child {
+  padding: 0em 0em;
+}
+
+body .bottom-container .work-item .title {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #4e4e4e;
+}
+
+body .bottom-container .work-item .company {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: #4e4e4e;
+}
+
+body .bottom-container .work-item .year {
+  font-size: 17px;
+  color: #0c919b;
+}
+
+body .bottom-container .work-item .description .list-heading {
+  padding: 0.5em 0 0 0;
+  color: #1f272b;
+}
+
+body .bottom-container .work-item .description .work-list {
+  padding-left: 1em;
+  color: #1f272b;
+  margin: 0;
+  padding: 1em 1em;
+  font-size: 14px;
+}
+
+body .bottom-container .work-item .description .work-list li {
+  padding: 0.1em;
+}
+
+body .bottom-container .skill-education-container {
+  width: 50%;
+}
+
+body .bottom-container .skill-education-container .skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e7e7e7;
+  color: #006c74;
+  padding-top: 0.5em;
+}
+
+body .bottom-container .skill-education-container ul {
+  margin: 0;
+  padding: 1em 1.75em;
+}
+
+body .bottom-container .skill-education-container ul li {
+  padding: 0.25em;
+}
+
+body .bottom-container .skill-education-container .education-heading {
+  text-transform: uppercase;
+  font-family: 'Rockwell';
+  background-color: #949494;
+  color: white;
+  font-size: 22px;
+  padding: .75em;
+}
+
+body .bottom-container .skill-education-container .education-body {
+  height: 429px;
+  background-color: #e7e7e7;
+}
+
+body .bottom-container .skill-education-container .education-body .edu-container {
+  padding: 1em 1em 0 1em;
+}
+
+body .bottom-container .skill-education-container .education-body .edu-container .edu-name {
+  font-size: 19px;
+  font-weight: bold;
+  color: #4e4e4e;
+  padding-bottom: 0.2em;
+}
+
+body .bottom-container .skill-education-container .education-body .edu-container .edu-year {
+  font-size: 15px;
+  color: #006c74;
+  padding-bottom: 0.1em;
+}
+
+body .bottom-container .skill-education-container .education-body .edu-container .edu-desc {
+  font-size: 13px;
+  color: #131414;
+}
+/*# sourceMappingURL=style.css.map */
